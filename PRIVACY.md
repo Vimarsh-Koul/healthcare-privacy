@@ -45,7 +45,7 @@ kept server-side and are never exposed to other users.
 
 ## Contact
 
-Questions about this policy or your data: **vimarsh2001koul@gmail.com** _(replace with your contact email)_.
+Questions about this policy or your data: **vimarsh2001koul@gmail.com** 
 
 This is a personal/educational project. The integration uses the WHOOP API under WHOOP's
 developer terms; "WHOOP" is a trademark of its respective owner.
