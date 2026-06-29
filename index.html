@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HealthCare — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; background: #0d121e; color: #e6ebf5;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; color: #a78bfa; }
+  .muted { color: #9aa6bd; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  code { background: #1b2233; border: 1px solid rgba(255,255,255,.1); padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+  a { color: #67e8f9; }
+  hr { border: none; border-top: 1px solid rgba(255,255,255,.08); margin: 28px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HealthCare — Privacy Policy</h1>
+  <p class="muted">Last updated: 2026-06-29</p>
+  <p>HealthCare is a personal medical-records application. This policy explains what data the app
+  accesses through the <b>WHOOP</b> integration, how it is used, and how you can remove it.</p>
+
+  <h2>What we access</h2>
+  <p>When you choose to connect WHOOP, you are redirected to WHOOP to grant access. With your
+  consent, HealthCare reads the following on your behalf:</p>
+  <ul>
+    <li><b>Profile</b> (<code>read:profile</code>) — WHOOP user id, name, email, to label the connection.</li>
+    <li><b>Recovery</b> (<code>read:recovery</code>) — recovery score, HRV, resting heart rate, SpO₂, skin temperature.</li>
+    <li><b>Sleep</b> (<code>read:sleep</code>) — duration, efficiency, performance, respiratory rate.</li>
+    <li><b>Cycles / strain</b> (<code>read:cycles</code>) — day strain, average heart rate, energy expenditure.</li>
+    <li><b>Workouts</b> (<code>read:workout</code>) — per-workout strain and heart rate.</li>
+    <li><b>Body measurement</b> (<code>read:body_measurement</code>) — height, weight, max heart rate (optional).</li>
+  </ul>
+  <p>We request <code>offline</code> access so the app can refresh data without re-authorizing each time.</p>
+
+  <h2>How we use it</h2>
+  <p>This data is shown back to <b>you</b> inside your own HealthCare account — current values and
+  trend charts on the Devices page. It is used solely to display your health history.</p>
+
+  <h2>How it is stored</h2>
+  <ul>
+    <li>WHOOP OAuth tokens and synced metrics are stored in HealthCare's own database, tied to your account.</li>
+    <li>Data is <b>not sold, shared, or sent to any third party</b>, and is not used for advertising.</li>
+    <li>HealthCare requests <b>read-only</b> scopes and never modifies your WHOOP data.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li>You can <b>disconnect WHOOP</b> anytime from the Devices page — this deletes the stored tokens and synced WHOOP metrics.</li>
+    <li>Deleting your HealthCare account removes all associated data.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Access is protected by authenticated, per-user access controls. Secrets and tokens are kept
+  server-side and are never exposed to other users.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data: <a href="mailto:your-email@example.com">your-email@example.com</a>
+  <span class="muted">(replace with your contact email)</span>.</p>
+
+  <hr />
+  <p class="muted">Personal/educational project. The integration uses the WHOOP API under WHOOP's
+  developer terms; "WHOOP" is a trademark of its respective owner.</p>
+</div>
+</body>
+</html>
